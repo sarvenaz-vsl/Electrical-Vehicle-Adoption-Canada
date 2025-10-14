@@ -1,0 +1,379 @@
+year,geo,dguid,geo_level,is_national,gender,age,population
+2017,Alberta,2021A000248,province,False,Men+,16_plus,1701045
+2017,Alberta,2021A000248,province,False,Total - gender,16_plus,3387024
+2017,Alberta,2021A000248,province,False,Women+,16_plus,1685979
+2017,British Columbia,2021A000259,province,False,Men+,16_plus,2052438
+2017,British Columbia,2021A000259,province,False,Total - gender,16_plus,4173138
+2017,British Columbia,2021A000259,province,False,Women+,16_plus,2120700
+2017,Canada,2021A000011124,national,True,Men+,16_plus,14913128
+2017,Canada,2021A000011124,national,True,Total - gender,16_plus,30229072
+2017,Canada,2021A000011124,national,True,Women+,16_plus,15315944
+2017,Manitoba,2021A000246,province,False,Men+,16_plus,530402
+2017,Manitoba,2021A000246,province,False,Total - gender,16_plus,1066162
+2017,Manitoba,2021A000246,province,False,Women+,16_plus,535760
+2017,New Brunswick,2021A000213,province,False,Men+,16_plus,318503
+2017,New Brunswick,2021A000213,province,False,Total - gender,16_plus,647990
+2017,New Brunswick,2021A000213,province,False,Women+,16_plus,329487
+2017,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,221779
+2017,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,450400
+2017,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,228621
+2017,Northwest Territories,2021A000261,province,False,Men+,16_plus,18143
+2017,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,35068
+2017,Northwest Territories,2021A000261,province,False,Women+,16_plus,16925
+2017,Nova Scotia,2021A000212,province,False,Men+,16_plus,392123
+2017,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,807538
+2017,Nova Scotia,2021A000212,province,False,Women+,16_plus,415415
+2017,Nunavut,2021A000262,province,False,Men+,16_plus,12886
+2017,Nunavut,2021A000262,province,False,Total - gender,16_plus,24997
+2017,Nunavut,2021A000262,province,False,Women+,16_plus,12111
+2017,Ontario,2021A000235,province,False,Men+,16_plus,5711578
+2017,Ontario,2021A000235,province,False,Total - gender,16_plus,11666918
+2017,Ontario,2021A000235,province,False,Women+,16_plus,5955340
+2017,Prince Edward Island,2021A000211,province,False,Men+,16_plus,60275
+2017,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,124557
+2017,Prince Edward Island,2021A000211,province,False,Women+,16_plus,64282
+2017,Quebec,2021A000224,province,False,Men+,16_plus,3420284
+2017,Quebec,2021A000224,province,False,Total - gender,16_plus,6902190
+2017,Quebec,2021A000224,province,False,Women+,16_plus,3481906
+2017,Saskatchewan,2021A000247,province,False,Men+,16_plus,457299
+2017,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,910563
+2017,Saskatchewan,2021A000247,province,False,Women+,16_plus,453264
+2017,Yukon,2021A000260,province,False,Men+,16_plus,16373
+2017,Yukon,2021A000260,province,False,Total - gender,16_plus,32527
+2017,Yukon,2021A000260,province,False,Women+,16_plus,16154
+2018,Alberta,2021A000248,province,False,Men+,16_plus,1722539
+2018,Alberta,2021A000248,province,False,Total - gender,16_plus,3431043
+2018,Alberta,2021A000248,province,False,Women+,16_plus,1708504
+2018,British Columbia,2021A000259,province,False,Men+,16_plus,2092833
+2018,British Columbia,2021A000259,province,False,Total - gender,16_plus,4251964
+2018,British Columbia,2021A000259,province,False,Women+,16_plus,2159131
+2018,Canada,2021A000011124,national,True,Men+,16_plus,15152994
+2018,Canada,2021A000011124,national,True,Total - gender,16_plus,30683282
+2018,Canada,2021A000011124,national,True,Women+,16_plus,15530288
+2018,Manitoba,2021A000246,province,False,Men+,16_plus,539387
+2018,Manitoba,2021A000246,province,False,Total - gender,16_plus,1081098
+2018,Manitoba,2021A000246,province,False,Women+,16_plus,541711
+2018,New Brunswick,2021A000213,province,False,Men+,16_plus,319908
+2018,New Brunswick,2021A000213,province,False,Total - gender,16_plus,651632
+2018,New Brunswick,2021A000213,province,False,Women+,16_plus,331724
+2018,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,221632
+2018,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,450513
+2018,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,228881
+2018,Northwest Territories,2021A000261,province,False,Men+,16_plus,18058
+2018,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,34949
+2018,Northwest Territories,2021A000261,province,False,Women+,16_plus,16891
+2018,Nova Scotia,2021A000212,province,False,Men+,16_plus,397298
+2018,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,816795
+2018,Nova Scotia,2021A000212,province,False,Women+,16_plus,419497
+2018,Nunavut,2021A000262,province,False,Men+,16_plus,13056
+2018,Nunavut,2021A000262,province,False,Total - gender,16_plus,25426
+2018,Nunavut,2021A000262,province,False,Women+,16_plus,12370
+2018,Ontario,2021A000235,province,False,Men+,16_plus,5832494
+2018,Ontario,2021A000235,province,False,Total - gender,16_plus,11891443
+2018,Ontario,2021A000235,province,False,Women+,16_plus,6058949
+2018,Prince Edward Island,2021A000211,province,False,Men+,16_plus,61287
+2018,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,126690
+2018,Prince Edward Island,2021A000211,province,False,Women+,16_plus,65403
+2018,Quebec,2021A000224,province,False,Men+,16_plus,3457689
+2018,Quebec,2021A000224,province,False,Total - gender,16_plus,6971881
+2018,Quebec,2021A000224,province,False,Women+,16_plus,3514192
+2018,Saskatchewan,2021A000247,province,False,Men+,16_plus,460054
+2018,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,916551
+2018,Saskatchewan,2021A000247,province,False,Women+,16_plus,456497
+2018,Yukon,2021A000260,province,False,Men+,16_plus,16759
+2018,Yukon,2021A000260,province,False,Total - gender,16_plus,33297
+2018,Yukon,2021A000260,province,False,Women+,16_plus,16538
+2019,Alberta,2021A000248,province,False,Men+,16_plus,1748152
+2019,Alberta,2021A000248,province,False,Total - gender,16_plus,3484102
+2019,Alberta,2021A000248,province,False,Women+,16_plus,1735950
+2019,British Columbia,2021A000259,province,False,Men+,16_plus,2135343
+2019,British Columbia,2021A000259,province,False,Total - gender,16_plus,4335382
+2019,British Columbia,2021A000259,province,False,Women+,16_plus,2200039
+2019,Canada,2021A000011124,national,True,Men+,16_plus,15405226
+2019,Canada,2021A000011124,national,True,Total - gender,16_plus,31163800
+2019,Canada,2021A000011124,national,True,Women+,16_plus,15758574
+2019,Manitoba,2021A000246,province,False,Men+,16_plus,547561
+2019,Manitoba,2021A000246,province,False,Total - gender,16_plus,1095650
+2019,Manitoba,2021A000246,province,False,Women+,16_plus,548089
+2019,New Brunswick,2021A000213,province,False,Men+,16_plus,322828
+2019,New Brunswick,2021A000213,province,False,Total - gender,16_plus,657917
+2019,New Brunswick,2021A000213,province,False,Women+,16_plus,335089
+2019,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,221804
+2019,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,451186
+2019,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,229382
+2019,Northwest Territories,2021A000261,province,False,Men+,16_plus,17945
+2019,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,34864
+2019,Northwest Territories,2021A000261,province,False,Women+,16_plus,16919
+2019,Nova Scotia,2021A000212,province,False,Men+,16_plus,404328
+2019,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,829190
+2019,Nova Scotia,2021A000212,province,False,Women+,16_plus,424862
+2019,Nunavut,2021A000262,province,False,Men+,16_plus,13207
+2019,Nunavut,2021A000262,province,False,Total - gender,16_plus,25763
+2019,Nunavut,2021A000262,province,False,Women+,16_plus,12556
+2019,Ontario,2021A000235,province,False,Men+,16_plus,5951673
+2019,Ontario,2021A000235,province,False,Total - gender,16_plus,12115645
+2019,Ontario,2021A000235,province,False,Women+,16_plus,6163972
+2019,Prince Edward Island,2021A000211,province,False,Men+,16_plus,62800
+2019,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,129898
+2019,Prince Edward Island,2021A000211,province,False,Women+,16_plus,67098
+2019,Quebec,2021A000224,province,False,Men+,16_plus,3499484
+2019,Quebec,2021A000224,province,False,Total - gender,16_plus,7047413
+2019,Quebec,2021A000224,province,False,Women+,16_plus,3547929
+2019,Saskatchewan,2021A000247,province,False,Men+,16_plus,463101
+2019,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,922888
+2019,Saskatchewan,2021A000247,province,False,Women+,16_plus,459787
+2019,Yukon,2021A000260,province,False,Men+,16_plus,17000
+2019,Yukon,2021A000260,province,False,Total - gender,16_plus,33902
+2019,Yukon,2021A000260,province,False,Women+,16_plus,16902
+2020,Alberta,2021A000248,province,False,Men+,16_plus,1770858
+2020,Alberta,2021A000248,province,False,Total - gender,16_plus,3530230
+2020,Alberta,2021A000248,province,False,Women+,16_plus,1759372
+2020,British Columbia,2021A000259,province,False,Men+,16_plus,2163936
+2020,British Columbia,2021A000259,province,False,Total - gender,16_plus,4393667
+2020,British Columbia,2021A000259,province,False,Women+,16_plus,2229731
+2020,Canada,2021A000011124,national,True,Men+,16_plus,15592594
+2020,Canada,2021A000011124,national,True,Total - gender,16_plus,31529187
+2020,Canada,2021A000011124,national,True,Women+,16_plus,15936593
+2020,Manitoba,2021A000246,province,False,Men+,16_plus,552380
+2020,Manitoba,2021A000246,province,False,Total - gender,16_plus,1104167
+2020,Manitoba,2021A000246,province,False,Women+,16_plus,551787
+2020,New Brunswick,2021A000213,province,False,Men+,16_plus,325568
+2020,New Brunswick,2021A000213,province,False,Total - gender,16_plus,663725
+2020,New Brunswick,2021A000213,province,False,Women+,16_plus,338157
+2020,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,222035
+2020,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,451862
+2020,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,229827
+2020,Northwest Territories,2021A000261,province,False,Men+,16_plus,17953
+2020,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,34954
+2020,Northwest Territories,2021A000261,province,False,Women+,16_plus,17001
+2020,Nova Scotia,2021A000212,province,False,Men+,16_plus,411171
+2020,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,841265
+2020,Nova Scotia,2021A000212,province,False,Women+,16_plus,430094
+2020,Nunavut,2021A000262,province,False,Men+,16_plus,13405
+2020,Nunavut,2021A000262,province,False,Total - gender,16_plus,26252
+2020,Nunavut,2021A000262,province,False,Women+,16_plus,12847
+2020,Ontario,2021A000235,province,False,Men+,16_plus,6041306
+2020,Ontario,2021A000235,province,False,Total - gender,16_plus,12289622
+2020,Ontario,2021A000235,province,False,Women+,16_plus,6248316
+2020,Prince Edward Island,2021A000211,province,False,Men+,16_plus,64361
+2020,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,133144
+2020,Prince Edward Island,2021A000211,province,False,Women+,16_plus,68783
+2020,Quebec,2021A000224,province,False,Men+,16_plus,3528339
+2020,Quebec,2021A000224,province,False,Total - gender,16_plus,7099930
+2020,Quebec,2021A000224,province,False,Women+,16_plus,3571591
+2020,Saskatchewan,2021A000247,province,False,Men+,16_plus,464034
+2020,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,925803
+2020,Saskatchewan,2021A000247,province,False,Women+,16_plus,461769
+2020,Yukon,2021A000260,province,False,Men+,16_plus,17248
+2020,Yukon,2021A000260,province,False,Total - gender,16_plus,34566
+2020,Yukon,2021A000260,province,False,Women+,16_plus,17318
+2021,Alberta,2021A000248,province,False,Men+,16_plus,1782852
+2021,Alberta,2021A000248,province,False,Total - gender,16_plus,3554833
+2021,Alberta,2021A000248,province,False,Women+,16_plus,1771981
+2021,British Columbia,2021A000259,province,False,Men+,16_plus,2187866
+2021,British Columbia,2021A000259,province,False,Total - gender,16_plus,4441202
+2021,British Columbia,2021A000259,province,False,Women+,16_plus,2253336
+2021,Canada,2021A000011124,national,True,Men+,16_plus,15705887
+2021,Canada,2021A000011124,national,True,Total - gender,16_plus,31742484
+2021,Canada,2021A000011124,national,True,Women+,16_plus,16036597
+2021,Manitoba,2021A000246,province,False,Men+,16_plus,559874
+2021,Manitoba,2021A000246,province,False,Total - gender,16_plus,1115807
+2021,Manitoba,2021A000246,province,False,Women+,16_plus,555933
+2021,New Brunswick,2021A000213,province,False,Men+,16_plus,329398
+2021,New Brunswick,2021A000213,province,False,Total - gender,16_plus,671039
+2021,New Brunswick,2021A000213,province,False,Women+,16_plus,341641
+2021,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,222363
+2021,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,453052
+2021,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,230689
+2021,Northwest Territories,2021A000261,province,False,Men+,16_plus,18036
+2021,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,35077
+2021,Northwest Territories,2021A000261,province,False,Women+,16_plus,17041
+2021,Nova Scotia,2021A000212,province,False,Men+,16_plus,416756
+2021,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,851575
+2021,Nova Scotia,2021A000212,province,False,Women+,16_plus,434819
+2021,Nunavut,2021A000262,province,False,Men+,16_plus,13611
+2021,Nunavut,2021A000262,province,False,Total - gender,16_plus,26702
+2021,Nunavut,2021A000262,province,False,Women+,16_plus,13091
+2021,Ontario,2021A000235,province,False,Men+,16_plus,6088818
+2021,Ontario,2021A000235,province,False,Total - gender,16_plus,12374497
+2021,Ontario,2021A000235,province,False,Women+,16_plus,6285679
+2021,Prince Edward Island,2021A000211,province,False,Men+,16_plus,65877
+2021,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,136190
+2021,Prince Edward Island,2021A000211,province,False,Women+,16_plus,70313
+2021,Quebec,2021A000224,province,False,Men+,16_plus,3538613
+2021,Quebec,2021A000224,province,False,Total - gender,16_plus,7120198
+2021,Quebec,2021A000224,province,False,Women+,16_plus,3581585
+2021,Saskatchewan,2021A000247,province,False,Men+,16_plus,464135
+2021,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,926833
+2021,Saskatchewan,2021A000247,province,False,Women+,16_plus,462698
+2021,Yukon,2021A000260,province,False,Men+,16_plus,17688
+2021,Yukon,2021A000260,province,False,Total - gender,16_plus,35479
+2021,Yukon,2021A000260,province,False,Women+,16_plus,17791
+2022,Alberta,2021A000248,province,False,Men+,16_plus,1817488
+2022,Alberta,2021A000248,province,False,Total - gender,16_plus,3628454
+2022,Alberta,2021A000248,province,False,Women+,16_plus,1810966
+2022,British Columbia,2021A000259,province,False,Men+,16_plus,2245693
+2022,British Columbia,2021A000259,province,False,Total - gender,16_plus,4563465
+2022,British Columbia,2021A000259,province,False,Women+,16_plus,2317772
+2022,Canada,2021A000011124,national,True,Men+,16_plus,16042767
+2022,Canada,2021A000011124,national,True,Total - gender,16_plus,32402869
+2022,Canada,2021A000011124,national,True,Women+,16_plus,16360102
+2022,Manitoba,2021A000246,province,False,Men+,16_plus,570507
+2022,Manitoba,2021A000246,province,False,Total - gender,16_plus,1136080
+2022,Manitoba,2021A000246,province,False,Women+,16_plus,565573
+2022,New Brunswick,2021A000213,province,False,Men+,16_plus,337021
+2022,New Brunswick,2021A000213,province,False,Total - gender,16_plus,686223
+2022,New Brunswick,2021A000213,province,False,Women+,16_plus,349202
+2022,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,224807
+2022,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,457413
+2022,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,232606
+2022,Northwest Territories,2021A000261,province,False,Men+,16_plus,18108
+2022,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,35248
+2022,Northwest Territories,2021A000261,province,False,Women+,16_plus,17140
+2022,Nova Scotia,2021A000212,province,False,Men+,16_plus,427354
+2022,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,872481
+2022,Nova Scotia,2021A000212,province,False,Women+,16_plus,445127
+2022,Nunavut,2021A000262,province,False,Men+,16_plus,13742
+2022,Nunavut,2021A000262,province,False,Total - gender,16_plus,27012
+2022,Nunavut,2021A000262,province,False,Women+,16_plus,13270
+2022,Ontario,2021A000235,province,False,Men+,16_plus,6248682
+2022,Ontario,2021A000235,province,False,Total - gender,16_plus,12676090
+2022,Ontario,2021A000235,province,False,Women+,16_plus,6427408
+2022,Prince Edward Island,2021A000211,province,False,Men+,16_plus,68113
+2022,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,140649
+2022,Prince Edward Island,2021A000211,province,False,Women+,16_plus,72536
+2022,Quebec,2021A000224,province,False,Men+,16_plus,3583980
+2022,Quebec,2021A000224,province,False,Total - gender,16_plus,7206520
+2022,Quebec,2021A000224,province,False,Women+,16_plus,3622540
+2022,Saskatchewan,2021A000247,province,False,Men+,16_plus,469197
+2022,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,936941
+2022,Saskatchewan,2021A000247,province,False,Women+,16_plus,467744
+2022,Yukon,2021A000260,province,False,Men+,16_plus,18075
+2022,Yukon,2021A000260,province,False,Total - gender,16_plus,36293
+2022,Yukon,2021A000260,province,False,Women+,16_plus,18218
+2023,Alberta,2021A000248,province,False,Men+,16_plus,1896428
+2023,Alberta,2021A000248,province,False,Total - gender,16_plus,3784641
+2023,Alberta,2021A000248,province,False,Women+,16_plus,1888213
+2023,British Columbia,2021A000259,province,False,Men+,16_plus,2322406
+2023,British Columbia,2021A000259,province,False,Total - gender,16_plus,4713595
+2023,British Columbia,2021A000259,province,False,Women+,16_plus,2391189
+2023,Canada,2021A000011124,national,True,Men+,16_plus,16588615
+2023,Canada,2021A000011124,national,True,Total - gender,16_plus,33424905
+2023,Canada,2021A000011124,national,True,Women+,16_plus,16836290
+2023,Manitoba,2021A000246,province,False,Men+,16_plus,589162
+2023,Manitoba,2021A000246,province,False,Total - gender,16_plus,1171883
+2023,Manitoba,2021A000246,province,False,Women+,16_plus,582721
+2023,New Brunswick,2021A000213,province,False,Men+,16_plus,346522
+2023,New Brunswick,2021A000213,province,False,Total - gender,16_plus,704786
+2023,New Brunswick,2021A000213,province,False,Women+,16_plus,358264
+2023,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,228650
+2023,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,464878
+2023,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,236228
+2023,Northwest Territories,2021A000261,province,False,Men+,16_plus,18272
+2023,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,35497
+2023,Northwest Territories,2021A000261,province,False,Women+,16_plus,17225
+2023,Nova Scotia,2021A000212,province,False,Men+,16_plus,440917
+2023,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,898034
+2023,Nova Scotia,2021A000212,province,False,Women+,16_plus,457117
+2023,Nunavut,2021A000262,province,False,Men+,16_plus,13903
+2023,Nunavut,2021A000262,province,False,Total - gender,16_plus,27346
+2023,Nunavut,2021A000262,province,False,Women+,16_plus,13443
+2023,Ontario,2021A000235,province,False,Men+,16_plus,6493779
+2023,Ontario,2021A000235,province,False,Total - gender,16_plus,13129640
+2023,Ontario,2021A000235,province,False,Women+,16_plus,6635861
+2023,Prince Edward Island,2021A000211,province,False,Men+,16_plus,71353
+2023,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,146934
+2023,Prince Edward Island,2021A000211,province,False,Women+,16_plus,75581
+2023,Quebec,2021A000224,province,False,Men+,16_plus,3665033
+2023,Quebec,2021A000224,province,False,Total - gender,16_plus,7346358
+2023,Quebec,2021A000224,province,False,Women+,16_plus,3681325
+2023,Saskatchewan,2021A000247,province,False,Men+,16_plus,483339
+2023,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,963607
+2023,Saskatchewan,2021A000247,province,False,Women+,16_plus,480268
+2023,Yukon,2021A000260,province,False,Men+,16_plus,18851
+2023,Yukon,2021A000260,province,False,Total - gender,16_plus,37706
+2023,Yukon,2021A000260,province,False,Women+,16_plus,18855
+2024,Alberta,2021A000248,province,False,Men+,16_plus,1995506
+2024,Alberta,2021A000248,province,False,Total - gender,16_plus,3980495
+2024,Alberta,2021A000248,province,False,Women+,16_plus,1984989
+2024,British Columbia,2021A000259,province,False,Men+,16_plus,2395563
+2024,British Columbia,2021A000259,province,False,Total - gender,16_plus,4863298
+2024,British Columbia,2021A000259,province,False,Women+,16_plus,2467735
+2024,Canada,2021A000011124,national,True,Men+,16_plus,17180618
+2024,Canada,2021A000011124,national,True,Total - gender,16_plus,34549719
+2024,Canada,2021A000011124,national,True,Women+,16_plus,17369101
+2024,Manitoba,2021A000246,province,False,Men+,16_plus,607119
+2024,Manitoba,2021A000246,province,False,Total - gender,16_plus,1207059
+2024,Manitoba,2021A000246,province,False,Women+,16_plus,599940
+2024,New Brunswick,2021A000213,province,False,Men+,16_plus,358606
+2024,New Brunswick,2021A000213,province,False,Total - gender,16_plus,728182
+2024,New Brunswick,2021A000213,province,False,Women+,16_plus,369576
+2024,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,232526
+2024,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,473028
+2024,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,240502
+2024,Northwest Territories,2021A000261,province,False,Men+,16_plus,18728
+2024,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,36305
+2024,Northwest Territories,2021A000261,province,False,Women+,16_plus,17577
+2024,Nova Scotia,2021A000212,province,False,Men+,16_plus,454999
+2024,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,925347
+2024,Nova Scotia,2021A000212,province,False,Women+,16_plus,470348
+2024,Nunavut,2021A000262,province,False,Men+,16_plus,14204
+2024,Nunavut,2021A000262,province,False,Total - gender,16_plus,27897
+2024,Nunavut,2021A000262,province,False,Women+,16_plus,13693
+2024,Ontario,2021A000235,province,False,Men+,16_plus,6747553
+2024,Ontario,2021A000235,province,False,Total - gender,16_plus,13606758
+2024,Ontario,2021A000235,province,False,Women+,16_plus,6859205
+2024,Prince Edward Island,2021A000211,province,False,Men+,16_plus,74204
+2024,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,152476
+2024,Prince Edward Island,2021A000211,province,False,Women+,16_plus,78272
+2024,Quebec,2021A000224,province,False,Men+,16_plus,3760582
+2024,Quebec,2021A000224,province,False,Total - gender,16_plus,7511679
+2024,Quebec,2021A000224,province,False,Women+,16_plus,3751097
+2024,Saskatchewan,2021A000247,province,False,Men+,16_plus,501130
+2024,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,997502
+2024,Saskatchewan,2021A000247,province,False,Women+,16_plus,496372
+2024,Yukon,2021A000260,province,False,Men+,16_plus,19898
+2024,Yukon,2021A000260,province,False,Total - gender,16_plus,39693
+2024,Yukon,2021A000260,province,False,Women+,16_plus,19795
+2025,Alberta,2021A000248,province,False,Men+,16_plus,2049932
+2025,Alberta,2021A000248,province,False,Total - gender,16_plus,4089647
+2025,Alberta,2021A000248,province,False,Women+,16_plus,2039715
+2025,British Columbia,2021A000259,province,False,Men+,16_plus,2408955
+2025,British Columbia,2021A000259,province,False,Total - gender,16_plus,4895067
+2025,British Columbia,2021A000259,province,False,Women+,16_plus,2486112
+2025,Canada,2021A000011124,national,True,Men+,16_plus,17364609
+2025,Canada,2021A000011124,national,True,Total - gender,16_plus,34934133
+2025,Canada,2021A000011124,national,True,Women+,16_plus,17569524
+2025,Manitoba,2021A000246,province,False,Men+,16_plus,615927
+2025,Manitoba,2021A000246,province,False,Total - gender,16_plus,1224629
+2025,Manitoba,2021A000246,province,False,Women+,16_plus,608702
+2025,New Brunswick,2021A000213,province,False,Men+,16_plus,363637
+2025,New Brunswick,2021A000213,province,False,Total - gender,16_plus,738266
+2025,New Brunswick,2021A000213,province,False,Women+,16_plus,374629
+2025,Newfoundland and Labrador,2021A000210,province,False,Men+,16_plus,234007
+2025,Newfoundland and Labrador,2021A000210,province,False,Total - gender,16_plus,476460
+2025,Newfoundland and Labrador,2021A000210,province,False,Women+,16_plus,242453
+2025,Northwest Territories,2021A000261,province,False,Men+,16_plus,19156
+2025,Northwest Territories,2021A000261,province,False,Total - gender,16_plus,37085
+2025,Northwest Territories,2021A000261,province,False,Women+,16_plus,17929
+2025,Nova Scotia,2021A000212,province,False,Men+,16_plus,460211
+2025,Nova Scotia,2021A000212,province,False,Total - gender,16_plus,936022
+2025,Nova Scotia,2021A000212,province,False,Women+,16_plus,475811
+2025,Nunavut,2021A000262,province,False,Men+,16_plus,14466
+2025,Nunavut,2021A000262,province,False,Total - gender,16_plus,28401
+2025,Nunavut,2021A000262,province,False,Women+,16_plus,13935
+2025,Ontario,2021A000235,province,False,Men+,16_plus,6794991
+2025,Ontario,2021A000235,province,False,Total - gender,16_plus,13714407
+2025,Ontario,2021A000235,province,False,Women+,16_plus,6919416
+2025,Prince Edward Island,2021A000211,province,False,Men+,16_plus,75624
+2025,Prince Edward Island,2021A000211,province,False,Total - gender,16_plus,155345
+2025,Prince Edward Island,2021A000211,province,False,Women+,16_plus,79721
+2025,Quebec,2021A000224,province,False,Men+,16_plus,3796507
+2025,Quebec,2021A000224,province,False,Total - gender,16_plus,7581800
+2025,Quebec,2021A000224,province,False,Women+,16_plus,3785293
+2025,Saskatchewan,2021A000247,province,False,Men+,16_plus,510941
+2025,Saskatchewan,2021A000247,province,False,Total - gender,16_plus,1016600
+2025,Saskatchewan,2021A000247,province,False,Women+,16_plus,505659
+2025,Yukon,2021A000260,province,False,Men+,16_plus,20255
+2025,Yukon,2021A000260,province,False,Total - gender,16_plus,40404
+2025,Yukon,2021A000260,province,False,Women+,16_plus,20149
