@@ -8,6 +8,7 @@ The project produces cleaned and merged datasets, predictive models for EV adopt
 ## 📊 Data Sources
 
 ### 1. EV Chargers
+
 - **Source:** Natural Resources Canada (NRCan) — Alternative Fuelling Stations Locator  
   🔗 https://natural-resources.canada.ca/energy-efficiency/transportation-energy-efficiency/electric-charging-alternative-fuelling-stationslocator-map#/analyze?country=CA&tab=fuel&ev_levels=all&fuel=ELEC
 - **File:** `data/raw/raw_chargers.csv`
@@ -22,6 +23,7 @@ fast_share = dcfast_ports / chargers_ports
 ---
 
 ### 2. Population
+
 - **Source:** Statistics Canada — Table 17-10-0005-01 (Population estimates by age and sex)  
   🔗 https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710000501
 - **File:** `data/raw/raw_population_province.csv`
@@ -36,6 +38,7 @@ ports_per_100k = chargers_ports / population_16plus * 100000
 ---
 
 ### 3. Zero-Emission Vehicles (ZEV)
+
 - **Source:** Statistics Canada — Table 20-10-0025-01 (Quarterly motor vehicle registrations by fuel type)  
   🔗 https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=2010002501
 - **File:** `data/raw/raw_zev_quarterly.csv`
@@ -50,8 +53,9 @@ ports_per_100k = chargers_ports / population_16plus * 100000
 Each dataset undergoes parsing, deduplication, missing-value replacement, and type harmonization.
 
 **2️⃣ Annual Aggregation**
-- Chargers → yearly openings → cumulative in-service totals.  
-- ZEV → quarterly registrations → annual totals.  
+
+- Chargers → yearly openings → cumulative in-service totals.
+- ZEV → quarterly registrations → annual totals.
 - Population → yearly totals (16+).
 
 **3️⃣ Merge**
@@ -60,8 +64,9 @@ Merged by (`geo`, `year`) to produce:
 Intermediate outputs: `chargers_processed.csv`, `zev_processed.csv`, `population_processed.csv`.
 
 **4️⃣ Derived Indicators**
-- `ev_per_1k`: EVs per 1,000 adults (16+)  
-- `ports_per_100k`: Charger ports per 100,000 adults  
+
+- `ev_per_1k`: EVs per 1,000 adults (16+)
+- `ports_per_100k`: Charger ports per 100,000 adults
 - `fast_share`: DC-fast chargers as % of total ports
 
 ---
@@ -70,19 +75,21 @@ Intermediate outputs: `chargers_processed.csv`, `zev_processed.csv`, `population
 
 Two predictive models were trained on 2017–2023 data and tested on 2024:
 
-| Model | Target | Weighted MAE | Weighted R² |
-|--------|---------|---------------|-------------|
-| **Counts** | `ev_annual` | 3,473 EV | 0.978 |
-| **Per-capita** | `ev_per_1k` | 1.28 EV/1k | 0.894 |
+| Model          | Target      | Weighted MAE | Weighted R² |
+| -------------- | ----------- | ------------ | ----------- |
+| **Counts**     | `ev_annual` | 3,473 EV     | 0.978       |
+| **Per-capita** | `ev_per_1k` | 1.28 EV/1k   | 0.894       |
 
 **Approach:**
+
 - RidgeCV regression (geo-aware via one-hot provinces)
 - Features: `t`, `chargers_ports`, `fast_share`, `ev_lag1`
 - Weighted by `population_16plus`
 
 ### Forecast Scenarios (2025)
-1. **Hold 2024 levels** — keep chargers and fast-share constant.  
-2. **Growth scenario** — +20% charger ports, +2pp fast-share.  
+
+1. **Hold 2024 levels** — keep chargers and fast-share constant.
+2. **Growth scenario** — +20% charger ports, +2pp fast-share.
 
 Output file: `data/processed/ev_forecast_2025_weighted.csv`
 
@@ -91,15 +98,17 @@ Output file: `data/processed/ev_forecast_2025_weighted.csv`
 ## 📈 Tableau Visualizations
 
 Tableau dashboards built from:
-- `merge_chargers_zev_pop_2017_2024.csv` (historical)  
+
+- `merge_chargers_zev_pop_2017_2024.csv` (historical)
 - `ev_forecast_2025_weighted.csv` (forecasted)
 
 Dashboards include:
+
 - EV adoption vs. charging density (per province)
 - EV/1k and ports/100k trendlines (2017–2024 + forecast)
 - Fast vs. Level 2 charger share
 
-🔗 Tableau Dashboard: *[Link coming soon]*
+🔗 Tableau Dashboard: (https://public.tableau.com/app/profile/sarvenaz.vesali/viz/EV-Adoption_Canada_Visualization/EVAdoptionAcrossCanadaTrendsandOverview?publish=yes)
 
 ---
 
@@ -162,5 +171,5 @@ print("2024 R²:", model.score(test[features], test[target]))
 
 ## 🙏 Acknowledgements
 
-- Natural Resources Canada — EV Charging Infrastructure  
+- Natural Resources Canada — EV Charging Infrastructure
 - Statistics Canada — Population & ZEV Registrations

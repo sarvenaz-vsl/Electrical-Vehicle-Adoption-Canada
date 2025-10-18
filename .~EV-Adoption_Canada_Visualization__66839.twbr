@@ -1,0 +1,1745 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='EV-Adoption_Canada_Visualization' path='/workbooks' revision='1.7' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='tableau_ev_canada' inline='true' name='federated.1nyjlbp0kmgdad1e6erg41w7kchb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tableau_ev_canada' name='textscan.1vlgrqs06txzkt1926d4w1okofke'>
+            <connection class='textscan' directory='/Users/sarvenaz/Desktop/Project/DataTalent/Electrical_Vehicle_Adoption_Canada/Electrical-Vehicle-Adoption-Canada/data/processed' filename='tableau_ev_canada.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1vlgrqs06txzkt1926d4w1okofke' name='tableau_ev_canada.csv' table='[tableau_ev_canada#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='geo' ordinal='0' />
+            <column datatype='string' name='prov_code' ordinal='1' />
+            <column datatype='integer' name='year' ordinal='2' />
+            <column datatype='string' name='scenario' ordinal='3' />
+            <column datatype='integer' name='population_16plus' ordinal='4' />
+            <column datatype='real' name='pct_16_64' ordinal='5' />
+            <column datatype='real' name='ev_annual' ordinal='6' />
+            <column datatype='real' name='ev_per_1k' ordinal='7' />
+            <column datatype='real' name='ev_pred_2025' ordinal='8' />
+            <column datatype='real' name='ev_per_1k_pred_2025' ordinal='9' />
+            <column datatype='real' name='ev_count_display' ordinal='10' />
+            <column datatype='real' name='ev_per_1k_display' ordinal='11' />
+            <column datatype='integer' name='chargers_ports' ordinal='12' />
+            <column datatype='integer' name='dcfast_ports' ordinal='13' />
+            <column datatype='real' name='ports_per_100k' ordinal='14' />
+            <column datatype='real' name='dcfast_per_100k' ordinal='15' />
+            <column datatype='real' name='fast_share' ordinal='16' />
+            <column datatype='real' name='yoy_ev_per_1k' ordinal='17' />
+            <column datatype='real' name='yoy_ports_per_100k' ordinal='18' />
+            <column datatype='real' name='rank_ev_per_1k' ordinal='19' />
+            <column datatype='real' name='quartile_ev_per_1k' ordinal='20' />
+            <column datatype='real' name='rank_ports_per_100k' ordinal='21' />
+            <column datatype='real' name='quartile_ports_per_100k' ordinal='22' />
+            <column datatype='real' name='share_ev_national' ordinal='23' />
+            <column datatype='real' name='share_ports_national' ordinal='24' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geo]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>geo</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prov_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[prov_code]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>prov_code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scenario</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[scenario]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>scenario</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_16plus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population_16plus]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>population_16plus</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_16_64</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_16_64]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>pct_16_64</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ev_annual</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ev_annual]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>ev_annual</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ev_per_1k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ev_per_1k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>ev_per_1k</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ev_pred_2025</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ev_pred_2025]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>ev_pred_2025</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ev_per_1k_pred_2025</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ev_per_1k_pred_2025]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>ev_per_1k_pred_2025</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ev_count_display</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ev_count_display]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>ev_count_display</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ev_per_1k_display</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ev_per_1k_display]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>ev_per_1k_display</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chargers_ports</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[chargers_ports]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>chargers_ports</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dcfast_ports</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dcfast_ports]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>dcfast_ports</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ports_per_100k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ports_per_100k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>ports_per_100k</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dcfast_per_100k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dcfast_per_100k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>dcfast_per_100k</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fast_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fast_share]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>fast_share</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yoy_ev_per_1k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yoy_ev_per_1k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>yoy_ev_per_1k</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yoy_ports_per_100k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yoy_ports_per_100k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>yoy_ports_per_100k</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank_ev_per_1k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rank_ev_per_1k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>rank_ev_per_1k</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quartile_ev_per_1k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[quartile_ev_per_1k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>quartile_ev_per_1k</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank_ports_per_100k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rank_ports_per_100k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>rank_ports_per_100k</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quartile_ports_per_100k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[quartile_ports_per_100k]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>quartile_ports_per_100k</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>share_ev_national</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_ev_national]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>share_ev_national</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>share_ports_national</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_ports_national]</local-name>
+            <parent-name>[tableau_ev_canada.csv]</parent-name>
+            <remote-alias>share_ports_national</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Scenario Flag' datatype='string' name='[Calculation_4444419578676289536]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [scenario] = &quot;Actual&quot; THEN &quot;Actual&quot; ELSE &quot;Forecast&quot; END' />
+      </column>
+      <column caption='Province Sort' datatype='integer' name='[Calculation_4444419578676977665]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [prov_code]&#10;WHEN &quot;BC&quot; THEN 1&#10;WHEN &quot;AB&quot; THEN 2&#10;WHEN &quot;SK&quot; THEN 3&#10;WHEN &quot;MB&quot; THEN 4&#10;WHEN &quot;ON&quot; THEN 5&#10;WHEN &quot;QC&quot; THEN 6&#10;WHEN &quot;NB&quot; THEN 7&#10;WHEN &quot;NS&quot; THEN 8&#10;WHEN &quot;PE&quot; THEN 9&#10;WHEN &quot;NL&quot; THEN 10&#10;WHEN &quot;YT&quot; THEN 11&#10;WHEN &quot;NT&quot; THEN 12&#10;WHEN &quot;NU&quot; THEN 13&#10;WHEN &quot;CA&quot; THEN 99&#10;END' />
+      </column>
+      <column caption='Tooltip Text' datatype='string' name='[Calculation_4444419578677059586]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;EV/1k: &quot; + STR(ROUND([ev_per_1k_display], 2))&#10;+ &quot;\nPorts/100k: &quot; + STR(ROUND([ports_per_100k], 1))&#10;+ &quot;\nFast Share: &quot; + STR(ROUND([fast_share]*100, 1)) + &quot;%&quot;&#10;+ &quot;\nScenario: &quot; + [scenario]' />
+      </column>
+      <column caption='Is Province' datatype='boolean' name='[Calculation_4444419578677145603]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[geo] &lt;&gt; &quot;Canada&quot;' />
+      </column>
+      <column caption='YoY EV per 1k' datatype='real' name='[Calculation_4444419578677436420]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([ev_per_1k_display]) - LOOKUP(SUM([ev_per_1k_display]), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Country' datatype='string' name='[Calculation_4444419578678054917]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+        <calculation class='tableau' formula='&quot;Canada&quot;' />
+      </column>
+      <column caption='Has EV/1k Data' datatype='boolean' name='[Calculation_4444419578679848966]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='NOT ISNULL(SUM([ev_per_1k_display])) AND SUM([ev_per_1k_display]) &gt; 0' />
+      </column>
+      <column caption='National EV per 1k (weighted)' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_4444419578680467463]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='WINDOW_SUM(SUM([ev_annual])) / WINDOW_SUM(SUM([population_16plus])) * 1000'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Median EV per 1k (visible provinces)' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_4444419578684542984]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='WINDOW_MEDIAN(SUM([ev_per_1k_display]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Rank EV per 1k (yearly)' datatype='integer' name='[Calculation_4703376557302108160]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK_DENSE( SUM([ev_per_1k_display]), &apos;desc&apos; )'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='tableau_ev_canada.csv' datatype='table' name='[__tableau_internal_object_id__].[tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37]' role='measure' type='quantitative' />
+      <column caption='Chargers Ports' datatype='integer' default-format='n#,##0;-#,##0' name='[chargers_ports]' role='measure' type='quantitative' />
+      <column caption='Dcfast Per 100K' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[dcfast_per_100k]' role='measure' type='quantitative' />
+      <column caption='Dcfast Ports' datatype='integer' default-format='n#,##0;-#,##0' name='[dcfast_ports]' role='measure' type='quantitative' />
+      <column caption='Ev Annual' datatype='real' name='[ev_annual]' role='measure' type='quantitative' />
+      <column caption='Ev Count Display' datatype='real' default-format='n#,##0;-#,##0' name='[ev_count_display]' role='measure' type='quantitative' />
+      <column caption='Ev Per 1K' datatype='real' name='[ev_per_1k]' role='measure' type='quantitative' />
+      <column caption='Ev Per 1K Display' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ev_per_1k_display]' role='measure' type='quantitative' />
+      <column caption='Ev Per 1K Pred 2025' datatype='real' name='[ev_per_1k_pred_2025]' role='measure' type='quantitative' />
+      <column caption='Ev Pred 2025' datatype='real' name='[ev_pred_2025]' role='measure' type='quantitative' />
+      <column caption='Fast Share' datatype='real' default-format='p0.0%' name='[fast_share]' role='measure' type='quantitative' />
+      <column caption='Geo' datatype='string' name='[geo]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Pct 16 64' datatype='real' name='[pct_16_64]' role='measure' type='quantitative' />
+      <column caption='Population 16Plus' datatype='integer' name='[population_16plus]' role='measure' type='quantitative' />
+      <column caption='Ports Per 100K' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ports_per_100k]' role='measure' type='quantitative' />
+      <column caption='Prov Code' datatype='string' name='[prov_code]' role='dimension' type='nominal' />
+      <column caption='Quartile Ev Per 1K' datatype='real' name='[quartile_ev_per_1k]' role='measure' type='quantitative' />
+      <column caption='Quartile Ports Per 100K' datatype='real' name='[quartile_ports_per_100k]' role='measure' type='quantitative' />
+      <column caption='Rank Ev Per 1K' datatype='real' name='[rank_ev_per_1k]' role='measure' type='quantitative' />
+      <column caption='Rank Ports Per 100K' datatype='real' name='[rank_ports_per_100k]' role='measure' type='quantitative' />
+      <column caption='Scenario' datatype='string' name='[scenario]' role='dimension' type='nominal' />
+      <column caption='Share Ev National' datatype='real' name='[share_ev_national]' role='measure' type='quantitative' />
+      <column caption='Share Ports National' datatype='real' name='[share_ports_national]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' default-format='n0;-0' name='[year]' role='dimension' type='ordinal' />
+      <column caption='Yoy Ev Per 1K' datatype='real' name='[yoy_ev_per_1k]' role='measure' type='quantitative' />
+      <column caption='Yoy Ports Per 100K' datatype='real' name='[yoy_ports_per_100k]' role='measure' type='quantitative' />
+      <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/sk/s3rkjy8x1qbb1lxqc6fg0x740000gn/T/tableau-temp/#TableauTemp_19s10yp1k6vs9u1cql4dd1ob8x93.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>geo</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[geo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>geo</remote-alias>
+              <ordinal>0</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>prov_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[prov_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>prov_code</remote-alias>
+              <ordinal>1</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>2</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scenario</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[scenario]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scenario</remote-alias>
+              <ordinal>3</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>population_16plus</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[population_16plus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>population_16plus</remote-alias>
+              <ordinal>4</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>104</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_16_64</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_16_64]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_16_64</remote-alias>
+              <ordinal>5</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>96</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ev_annual</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ev_annual]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ev_annual</remote-alias>
+              <ordinal>6</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ev_per_1k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ev_per_1k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ev_per_1k</remote-alias>
+              <ordinal>7</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>89</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ev_pred_2025</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ev_pred_2025]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ev_pred_2025</remote-alias>
+              <ordinal>8</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ev_per_1k_pred_2025</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ev_per_1k_pred_2025]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ev_per_1k_pred_2025</remote-alias>
+              <ordinal>9</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ev_count_display</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ev_count_display]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ev_count_display</remote-alias>
+              <ordinal>10</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ev_per_1k_display</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ev_per_1k_display]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ev_per_1k_display</remote-alias>
+              <ordinal>11</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>104</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>chargers_ports</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[chargers_ports]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>chargers_ports</remote-alias>
+              <ordinal>12</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>87</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dcfast_ports</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[dcfast_ports]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dcfast_ports</remote-alias>
+              <ordinal>13</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ports_per_100k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ports_per_100k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ports_per_100k</remote-alias>
+              <ordinal>14</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dcfast_per_100k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[dcfast_per_100k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dcfast_per_100k</remote-alias>
+              <ordinal>15</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>84</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fast_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[fast_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fast_share</remote-alias>
+              <ordinal>16</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>82</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>yoy_ev_per_1k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[yoy_ev_per_1k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>yoy_ev_per_1k</remote-alias>
+              <ordinal>17</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>yoy_ports_per_100k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[yoy_ports_per_100k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>yoy_ports_per_100k</remote-alias>
+              <ordinal>18</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>83</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rank_ev_per_1k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rank_ev_per_1k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rank_ev_per_1k</remote-alias>
+              <ordinal>19</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>quartile_ev_per_1k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[quartile_ev_per_1k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>quartile_ev_per_1k</remote-alias>
+              <ordinal>20</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rank_ports_per_100k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rank_ports_per_100k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rank_ports_per_100k</remote-alias>
+              <ordinal>21</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>quartile_ports_per_100k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[quartile_ports_per_100k]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>quartile_ports_per_100k</remote-alias>
+              <ordinal>22</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>share_ev_national</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[share_ev_national]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>share_ev_national</remote-alias>
+              <ordinal>23</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>share_ports_national</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[share_ports_national]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>share_ports_national</remote-alias>
+              <ordinal>24</ordinal>
+              <family>tableau_ev_canada.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>91</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:geo:nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#79706e'>
+              <bucket>&quot;Alberta&quot;</bucket>
+            </map>
+            <map to='#7c7270'>
+              <bucket>&quot;Manitoba&quot;</bucket>
+            </map>
+            <map to='#8074a8'>
+              <bucket>&quot;Yukon&quot;</bucket>
+            </map>
+            <map to='#9b93c9'>
+              <bucket>&quot;Northwest Territories&quot;</bucket>
+            </map>
+            <map to='#9c9290'>
+              <bucket>&quot;Ontario&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;Quebec&quot;</bucket>
+            </map>
+            <map to='#c5bfbe'>
+              <bucket>&quot;Nova Scotia&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;Saskatchewan&quot;</bucket>
+            </map>
+            <map to='#ddb5d5'>
+              <bucket>&quot;New Brunswick&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Newfoundland and Labrador&quot;</bucket>
+            </map>
+            <map to='#f498b6'>
+              <bucket>&quot;British Columbia&quot;</bucket>
+            </map>
+            <map to='#ffbed1'>
+              <bucket>&quot;Prince Edward Island&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <default-sorts>
+        <natural-sort column='[none:geo:nk]' direction='DESC' />
+      </default-sorts>
+      <object-graph>
+        <objects>
+          <object caption='tableau_ev_canada.csv' id='tableau_ev_canada.csv_473848EA359345CFB377DFB9873ABB37'>
+            <properties context=''>
+              <relation connection='textscan.1vlgrqs06txzkt1926d4w1okofke' name='tableau_ev_canada.csv' table='[tableau_ev_canada#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='geo' ordinal='0' />
+                  <column datatype='string' name='prov_code' ordinal='1' />
+                  <column datatype='integer' name='year' ordinal='2' />
+                  <column datatype='string' name='scenario' ordinal='3' />
+                  <column datatype='integer' name='population_16plus' ordinal='4' />
+                  <column datatype='real' name='pct_16_64' ordinal='5' />
+                  <column datatype='real' name='ev_annual' ordinal='6' />
+                  <column datatype='real' name='ev_per_1k' ordinal='7' />
+                  <column datatype='real' name='ev_pred_2025' ordinal='8' />
+                  <column datatype='real' name='ev_per_1k_pred_2025' ordinal='9' />
+                  <column datatype='real' name='ev_count_display' ordinal='10' />
+                  <column datatype='real' name='ev_per_1k_display' ordinal='11' />
+                  <column datatype='integer' name='chargers_ports' ordinal='12' />
+                  <column datatype='integer' name='dcfast_ports' ordinal='13' />
+                  <column datatype='real' name='ports_per_100k' ordinal='14' />
+                  <column datatype='real' name='dcfast_per_100k' ordinal='15' />
+                  <column datatype='real' name='fast_share' ordinal='16' />
+                  <column datatype='real' name='yoy_ev_per_1k' ordinal='17' />
+                  <column datatype='real' name='yoy_ports_per_100k' ordinal='18' />
+                  <column datatype='real' name='rank_ev_per_1k' ordinal='19' />
+                  <column datatype='real' name='quartile_ev_per_1k' ordinal='20' />
+                  <column datatype='real' name='rank_ports_per_100k' ordinal='21' />
+                  <column datatype='real' name='quartile_ports_per_100k' ordinal='22' />
+                  <column datatype='real' name='share_ev_national' ordinal='23' />
+                  <column datatype='real' name='share_ports_national' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Hover highlight: bar → map' name='[Action1_A9F1ECEA5AAA4CEDA1554AEF19E3BCF2]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='EV Adoption Across Canada — Trends and Overview' type='sheet' worksheet='EVs Per 1K Adults' />
+      <command command='tsc:brush'>
+        <param name='exclude' value='EVs Per 1K Adults' />
+        <param name='field-captions' value='Geo' />
+        <param name='target' value='EV Adoption Across Canada — Trends and Overview' />
+      </command>
+    </action>
+    <action caption='Hover highlight: map → bar' name='[Action2_126D762E563B40E6B059E4F22E808C19]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='EV Adoption Across Canada — Trends and Overview' type='sheet' worksheet='Map - EVs Per 1K Adults' />
+      <command command='tsc:brush'>
+        <param name='exclude' value='Map - EVs Per 1K Adults' />
+        <param name='field-captions' value='Geo' />
+        <param name='target' value='EV Adoption Across Canada — Trends and Overview' />
+      </command>
+    </action>
+    <action caption='Hover highlight: rank → map, bar' name='[Action3_92BD4505EE66482380CB6C0B0893ED5B]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='EV Adoption Across Canada — Trends and Overview' type='sheet' worksheet='Rank — EV per 1k' />
+      <command command='tsc:brush'>
+        <param name='exclude' value='Rank — EV per 1k' />
+        <param name='field-captions' value='Geo' />
+        <param name='target' value='EV Adoption Across Canada — Trends and Overview' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='EV Adoption Trends by Province'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tableau_ev_canada' name='federated.1nyjlbp0kmgdad1e6erg41w7kchb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1nyjlbp0kmgdad1e6erg41w7kchb'>
+            <column caption='Scenario Flag' datatype='string' name='[Calculation_4444419578676289536]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [scenario] = &quot;Actual&quot; THEN &quot;Actual&quot; ELSE &quot;Forecast&quot; END' />
+            </column>
+            <column caption='Is Province' datatype='boolean' name='[Calculation_4444419578677145603]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[geo] &lt;&gt; &quot;Canada&quot;' />
+            </column>
+            <column caption='Has EV/1k Data' datatype='boolean' name='[Calculation_4444419578679848966]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='NOT ISNULL(SUM([ev_per_1k_display])) AND SUM([ev_per_1k_display]) &gt; 0' />
+            </column>
+            <column caption='Ev Per 1K Display' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ev_per_1k_display]' role='measure' type='quantitative' />
+            <column caption='Geo' datatype='string' name='[geo]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_4444419578676289536]' derivation='None' name='[none:Calculation_4444419578676289536:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4444419578677145603]' derivation='None' name='[none:Calculation_4444419578677145603:nk]' pivot='key' type='nominal' />
+            <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Scenario' datatype='string' name='[scenario]' role='dimension' type='nominal' />
+            <column-instance column='[ev_per_1k_display]' derivation='Sum' name='[sum:ev_per_1k_display:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4444419578679848966]' derivation='User' name='[usr:Calculation_4444419578679848966:nk]' pivot='key' type='nominal' />
+            <column caption='Year' datatype='integer' default-format='n0;-0' name='[year]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]'>
+            <groupfilter function='member' level='[none:Calculation_4444419578676289536:nk]' member='&quot;Actual&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578677145603:nk]'>
+            <groupfilter function='member' level='[none:Calculation_4444419578677145603:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]'>
+            <groupfilter function='member' level='[usr:Calculation_4444419578679848966:nk]' member='true' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578677145603:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' scope='rows' value='EVs Per 1,000 Adults' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Province:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>EVs Per 1,000 Adults:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]</rows>
+        <cols>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]</cols>
+      </table>
+      <simple-id uuid='{5DD63390-6C2A-4519-A343-D48B96393EF0}' />
+    </worksheet>
+    <worksheet name='EVs Per 1K Adults'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#606b76'>EVs Per 1,000 Adults — &lt;</run>
+            <run fontcolor='#606b76'>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]</run>
+            <run fontcolor='#606b76'>&gt; (Actuals)</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Takeaway — &lt;</run>
+            <run>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]</run>
+            <run><![CDATA[>
+EV adoption per 1,000 adults. Provincial median: <]]></run>
+            <run>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578684542984:qk]</run>
+            <run><![CDATA[>.
+National (population-weighted): <]]></run>
+            <run>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578680467463:qk]</run>
+            <run>&gt;.
+&quot;Why per 1,000 adults?&quot; Enables fair comparison across differently sized provinces.
+Notes: Canada row excluded; provinces with missing EV/1k filtered out.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tableau_ev_canada' name='federated.1nyjlbp0kmgdad1e6erg41w7kchb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1nyjlbp0kmgdad1e6erg41w7kchb'>
+            <column caption='Scenario Flag' datatype='string' name='[Calculation_4444419578676289536]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [scenario] = &quot;Actual&quot; THEN &quot;Actual&quot; ELSE &quot;Forecast&quot; END' />
+            </column>
+            <column caption='Is Province' datatype='boolean' name='[Calculation_4444419578677145603]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[geo] &lt;&gt; &quot;Canada&quot;' />
+            </column>
+            <column caption='Has EV/1k Data' datatype='boolean' name='[Calculation_4444419578679848966]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='NOT ISNULL(SUM([ev_per_1k_display])) AND SUM([ev_per_1k_display]) &gt; 0' />
+            </column>
+            <column caption='National EV per 1k (weighted)' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_4444419578680467463]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_SUM(SUM([ev_annual])) / WINDOW_SUM(SUM([population_16plus])) * 1000'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Median EV per 1k (visible provinces)' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_4444419578684542984]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_MEDIAN(SUM([ev_per_1k_display]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Ev Annual' datatype='real' name='[ev_annual]' role='measure' type='quantitative' />
+            <column caption='Ev Per 1K Display' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ev_per_1k_display]' role='measure' type='quantitative' />
+            <column caption='Geo' datatype='string' name='[geo]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_4444419578676289536]' derivation='None' name='[none:Calculation_4444419578676289536:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4444419578677145603]' derivation='None' name='[none:Calculation_4444419578677145603:nk]' pivot='key' type='nominal' />
+            <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Population 16Plus' datatype='integer' name='[population_16plus]' role='measure' type='quantitative' />
+            <column caption='Ports Per 100K' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ports_per_100k]' role='measure' type='quantitative' />
+            <column caption='Scenario' datatype='string' name='[scenario]' role='dimension' type='nominal' />
+            <column-instance column='[ev_per_1k_display]' derivation='Sum' name='[sum:ev_per_1k_display:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ports_per_100k]' derivation='Sum' name='[sum:ports_per_100k:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4444419578679848966]' derivation='User' name='[usr:Calculation_4444419578679848966:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4444419578680467463]' derivation='User' name='[usr:Calculation_4444419578680467463:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+            <column-instance column='[Calculation_4444419578684542984]' derivation='User' name='[usr:Calculation_4444419578684542984:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+            <column caption='Year' datatype='integer' default-format='n0;-0' name='[year]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]'>
+            <groupfilter function='member' level='[none:Calculation_4444419578676289536:nk]' member='&quot;Actual&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578677145603:nk]'>
+            <groupfilter function='member' level='[none:Calculation_4444419578677145603:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]' direction='DESC' using='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' />
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]'>
+            <groupfilter function='member' level='[none:year:ok]' member='2024' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]'>
+            <groupfilter function='member' level='[usr:Calculation_4444419578679848966:nk]' member='true' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578677145603:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' scope='cols' value='EVs Per 1,000 Adults' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]' value='43' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578680467463:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-color' id='refline0' value='#b07aa15b' />
+            <format attr='text-orientation' value='-90' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='text-format' id='refline1' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' id='refline0' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' />
+              <lod column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578680467463:qk]' />
+              <lod column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578684542984:qk]' />
+              <text column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' />
+              <tooltip column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ports_per_100k:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' enable-instant-analytics='true' formula='average' id='refline0' label='Median: &lt;Value&gt;' label-type='custom' probability='95' scope='per-table' value-column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578684542984:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' enable-instant-analytics='true' formula='average' id='refline1' label='National Weighted: &lt;Value&gt;' label-type='custom' probability='95' scope='per-table' value-column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578680467463:qk]' z-order='2' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Province:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>EVs Per 1K Adults:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Charging Ports Per 100K Adults:	</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ports_per_100k:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]</rows>
+        <cols>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]</cols>
+      </table>
+      <simple-id uuid='{7A378764-F055-41E1-914A-A0FB2DA15C03}' />
+    </worksheet>
+    <worksheet name='Map - EVs Per 1K Adults'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#666666'>Map – EVs per 1,000 Adults – &lt;</run>
+            <run fontcolor='#666666'>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[attr:year:qk]</run>
+            <run fontcolor='#666666'>&gt;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#606b76' fontname='Benton Sans Book'><![CDATA[EV adoption per 1,000 adults (Actuals, <[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[attr:year:qk]>). Darker color = higher adoption.]]></run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#606b76' fontname='Benton Sans Book'>Provinces with missing EV/1k are excluded; Canada total not mapped.</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#606b76' fontname='Benton Sans Book'>Hover to see adoption and charger density (ports per 100k).</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tableau_ev_canada' name='federated.1nyjlbp0kmgdad1e6erg41w7kchb' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1nyjlbp0kmgdad1e6erg41w7kchb'>
+            <column caption='Scenario Flag' datatype='string' name='[Calculation_4444419578676289536]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [scenario] = &quot;Actual&quot; THEN &quot;Actual&quot; ELSE &quot;Forecast&quot; END' />
+            </column>
+            <column caption='Country' datatype='string' name='[Calculation_4444419578678054917]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <calculation class='tableau' formula='&quot;Canada&quot;' />
+            </column>
+            <column caption='Has EV/1k Data' datatype='boolean' name='[Calculation_4444419578679848966]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='NOT ISNULL(SUM([ev_per_1k_display])) AND SUM([ev_per_1k_display]) &gt; 0' />
+            </column>
+            <column-instance column='[year]' derivation='Attribute' name='[attr:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Ev Per 1K Display' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ev_per_1k_display]' role='measure' type='quantitative' />
+            <column caption='Geo' datatype='string' name='[geo]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_4444419578676289536]' derivation='None' name='[none:Calculation_4444419578676289536:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4444419578678054917]' derivation='None' name='[none:Calculation_4444419578678054917:nk]' pivot='key' type='nominal' />
+            <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[prov_code]' derivation='None' name='[none:prov_code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Ports Per 100K' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ports_per_100k]' role='measure' type='quantitative' />
+            <column caption='Prov Code' datatype='string' name='[prov_code]' role='dimension' type='nominal' />
+            <column caption='Scenario' datatype='string' name='[scenario]' role='dimension' type='nominal' />
+            <column-instance column='[ev_per_1k_display]' derivation='Sum' name='[sum:ev_per_1k_display:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ports_per_100k]' derivation='Sum' name='[sum:ports_per_100k:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4444419578679848966]' derivation='User' name='[usr:Calculation_4444419578679848966:nk]' pivot='key' type='nominal' />
+            <column caption='Year' datatype='integer' default-format='n0;-0' name='[year]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]'>
+            <groupfilter function='member' level='[none:Calculation_4444419578676289536:nk]' member='&quot;Actual&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:geo:nk]' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Canada&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]'>
+            <groupfilter function='member' level='[none:year:ok]' member='2024' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]'>
+            <groupfilter function='member' level='[usr:Calculation_4444419578679848966:nk]' member='true' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[Longitude (generated)]' field-type='quantitative' max='-2921094.9959095456' min='-19123143.623623807' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[Latitude (generated)]' field-type='quantitative' max='12190930.313256755' min='4648597.1482364796' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' min='0.0' num-steps='5' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' value='EVs Per 1,000 Adults'>
+              <formatted-text>
+                <run>EVs Per 1,000 Adults</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' />
+              <tooltip column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[attr:year:qk]' />
+              <tooltip column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ports_per_100k:qk]' />
+              <text column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:prov_code:nk]' />
+              <lod column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]' />
+              <lod column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578678054917:nk]' />
+              <geometry column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Province:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>EVs Per 1k Adults:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Charging Ports Per 100K Adults:	</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ports_per_100k:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#333333' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[Latitude (generated)]</rows>
+        <cols>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{E0E8DA71-CACC-46FB-863B-66B2A5C26734}' />
+    </worksheet>
+    <worksheet name='Rank — EV per 1k'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run fontcolor='#606b76'>Rank of EV adoption per 1,000 adults (2017–2024). Lines show each province’s rank by year (1 = highest). Axis is reversed so leaders sit at the top.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tableau_ev_canada' name='federated.1nyjlbp0kmgdad1e6erg41w7kchb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1nyjlbp0kmgdad1e6erg41w7kchb'>
+            <column caption='Scenario Flag' datatype='string' name='[Calculation_4444419578676289536]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [scenario] = &quot;Actual&quot; THEN &quot;Actual&quot; ELSE &quot;Forecast&quot; END' />
+            </column>
+            <column caption='Is Province' datatype='boolean' name='[Calculation_4444419578677145603]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[geo] &lt;&gt; &quot;Canada&quot;' />
+            </column>
+            <column caption='Has EV/1k Data' datatype='boolean' name='[Calculation_4444419578679848966]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='NOT ISNULL(SUM([ev_per_1k_display])) AND SUM([ev_per_1k_display]) &gt; 0' />
+            </column>
+            <column caption='Rank EV per 1k (yearly)' datatype='integer' name='[Calculation_4703376557302108160]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANK_DENSE( SUM([ev_per_1k_display]), &apos;desc&apos; )'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Ev Per 1K Display' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[ev_per_1k_display]' role='measure' type='quantitative' />
+            <column caption='Geo' datatype='string' name='[geo]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_4444419578676289536]' derivation='None' name='[none:Calculation_4444419578676289536:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4444419578677145603]' derivation='None' name='[none:Calculation_4444419578677145603:nk]' pivot='key' type='nominal' />
+            <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Scenario' datatype='string' name='[scenario]' role='dimension' type='nominal' />
+            <column-instance column='[ev_per_1k_display]' derivation='Sum' name='[sum:ev_per_1k_display:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4444419578679848966]' derivation='User' name='[usr:Calculation_4444419578679848966:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4703376557302108160]' derivation='User' name='[usr:Calculation_4703376557302108160:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[geo]' ordering-type='Field' />
+            </column-instance>
+            <column caption='Year' datatype='integer' default-format='n0;-0' name='[year]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]'>
+            <groupfilter function='member' level='[none:Calculation_4444419578676289536:nk]' member='&quot;Actual&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578677145603:nk]'>
+            <groupfilter function='member' level='[none:Calculation_4444419578677145603:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]'>
+            <groupfilter function='member' level='[usr:Calculation_4444419578679848966:nk]' member='true' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578677145603:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:Calculation_4444419578676289536:nk]</column>
+            <column>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4444419578679848966:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4703376557302108160:qk:3]' field-type='quantitative' major-origin='0' major-spacing='1' min='1' range-type='fixedmin' reverse='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4703376557302108160:qk:3]' scope='rows' value='Rank EV Per 1,000 Adults (yearly)' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]' value='102' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4703376557302108160:qk:3]' value='' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-color' id='refline0' value='#0000004b' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]' />
+              <tooltip column='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Province:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Rank EVs Per 1,000 Adults:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4703376557302108160:qk:3]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>EVs Per 1,000 Adults:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='line-ends' />
+                <format attr='mark-labels-line-first' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[usr:Calculation_4703376557302108160:qk:3]</rows>
+        <cols>[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]</cols>
+      </table>
+      <simple-id uuid='{169C986E-E842-44B6-B3F2-9E615BBE4500}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='EV Adoption Across Canada — Trends and Overview'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='tableau_ev_canada' name='federated.1nyjlbp0kmgdad1e6erg41w7kchb' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1nyjlbp0kmgdad1e6erg41w7kchb'>
+        <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+        <column caption='Year' datatype='integer' default-format='n0;-0' name='[year]' role='dimension' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='48212' id='5' param='vert' type-v2='layout-flow' w='47869' x='44463' y='7250'>
+            <zone h='39109' id='9' name='Map - EVs Per 1K Adults' show-title='false' w='47869' x='44463' y='7250'>
+              <layout-cache minheight='201' type-h='scalable' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='9103' id='10' name='Map - EVs Per 1K Adults' pane-specification-id='0' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' type-v2='color' w='47869' x='44463' y='46359'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='91630' id='7' name='EVs Per 1K Adults' show-title='false' w='43797' x='666' y='7250'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='91630' id='11' param='horz' type-v2='layout-flow' w='7002' x='92332' y='7250'>
+            <zone h='91630' id='8' mode='dropdown' name='EVs Per 1K Adults' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]' show-all='false' show-search='false' type-v2='filter' values='relevant' w='7002' x='92332' y='7250'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='6130' id='12' type-v2='text' w='98668' x='666' y='1120'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#606b76' fontname='Tableau Medium' fontsize='15'>EV Adoption Across Canada — Trends and Overview</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='43418' id='27' name='Rank — EV per 1k' show-title='false' w='47869' x='44463' y='55462'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='25' param='vert' type-v2='layout-flow' w='98724' x='638' y='1042'>
+                <zone forceUpdate='true' h='6140' id='12' type-v2='text' w='98724' x='638' y='1042'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#606b76' fontname='Tableau Medium' fontsize='15'>EV Adoption Across Canada — Trends and Overview</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='91776' id='8' mode='dropdown' name='EVs Per 1K Adults' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]' show-all='false' show-search='false' type-v2='filter' values='relevant' w='7005' x='92357' y='7182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91776' id='7' is-fixed='true' name='EVs Per 1K Adults' show-title='false' w='44859' x='638' y='7182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='83312' id='9' is-fixed='true' name='Map - EVs Per 1K Adults' show-title='false' w='46860' x='45497' y='7182'>
+                  <layout-cache minheight='201' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8464' id='10' name='Map - EVs Per 1K Adults' pane-specification-id='0' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' type-v2='color' w='46860' x='45497' y='90494'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{22D4A8A6-B850-4B7E-8639-DE641901FC99}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='EVs Per 1K Adults'>
+      <cards>
+        <edge name='left'>
+          <strip size='147'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]' show-all='false' show-search='false' type='filter' values='relevant' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='129'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4342E38F-68C6-4BE1-8BA3-07A7722C52D6}' />
+    </window>
+    <window class='worksheet' name='Map - EVs Per 1K Adults'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:year:ok]' show-all='false' type='filter' values='relevant' />
+            <card pane-specification-id='0' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[sum:ev_per_1k_display:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AD08BC88-FE12-4522-BF59-697B2DFE9498}' />
+    </window>
+    <window class='dashboard' maximized='true' name='EV Adoption Across Canada — Trends and Overview'>
+      <viewpoints>
+        <viewpoint name='EVs Per 1K Adults' />
+        <viewpoint name='Map - EVs Per 1K Adults'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Rank — EV per 1k'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true'>
+        <device is-portrait='false' name='Generic Desktop Monitor' type='Desktop' />
+      </device-preview>
+      <simple-id uuid='{20E715D8-5EA3-4327-8905-E30AE26DCC1E}' />
+    </window>
+    <window class='worksheet' name='EV Adoption Trends by Province'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E4AE7760-9DEB-4534-A6E7-7FAC05E79285}' />
+    </window>
+    <window class='worksheet' name='Rank — EV per 1k'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1nyjlbp0kmgdad1e6erg41w7kchb].[none:geo:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5C5E0A45-8A1D-4331-A4FC-ED987665237D}' />
+    </window>
+  </windows>
+</workbook>
