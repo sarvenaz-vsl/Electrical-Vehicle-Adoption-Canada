@@ -1,0 +1,21 @@
+# Tableau
+*.twb
+*.twbx
+*.twbr
+*.tds
+*.tdsx
+*.tde
+*.hyper
+
+# OS/editor noise
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data outputs (optional—keep if you don't want to version big exports)
+data/processed/
+*.zip
